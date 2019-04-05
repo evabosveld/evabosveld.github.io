@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eva Bosveld</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/main.css" type="text/css">
+  <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+</head>
+
+<body>  
+<div class="background-image"></div>   
+     
+<!--  BUTTONS -->
+
+<section class="cards">
+
+  <article>
+	<button class="button" id="btnOne" data-modal="#modalOne" data-img="#imgOne" onmouseover="hoverimg(this)">
+        <h1 class="article-title">Erich Wichman</h1>
+	</button>
+  </article>
+
+  <article>
+    <button class="button" id="btnTwo" data-modal="#modalTwo" data-img="#imgTwo" onmouseover="hoverimg(this)">
+		<h1 class="article-title">Anonymous Identities</h1>
+	</button>
+  </article>
+
+  <article>
+    <button class="button" id="btnThree" data-modal="#modalThree" data-img="#imgThree" onmouseover="hoverimg(this)">
+		<h1 class="article-title">Dear Internet</h1>
+	</button>
+  </article>
+  
+  <article>
+	<button class="button" id="btnFour" data-modal="#modalFour" data-img="#imgFour" onmouseover="hoverimg(this)">
+		<h1 class="article-title">Koop Een Nieuwe</h1>
+	</button>
+  </article>
+
+  <article>
+    <button class="button" id="btnFive" data-modal="#modalFive" data-img="#imgFive" onmouseover="hoverimg(this)">
+		<h1 class="article-title">Stalker Style</h1>
+	</button>
+  </article>
+
+  <article>
+    <button class="button" id="btnSix" data-modal="#modalSix" data-img="#imgSix" onmouseover="hoverimg(this)">
+		<h1 class="article-title">hi</h1>
+	</button>
+  </article>
+  
+</section> 
+
+<!-- THUMBNAILS -->
+
+<div id="thumbnails-main">
+<div id="imgOne" class="rand"><img class="thumbnail-img" src="images/tn-1.png"/></div>
+<div id="imgTwo" class="rand"><img class="thumbnail-img" src="images/tn-2.png"/></div>
+<div id="imgThree" class="rand"><img class="thumbnail-img" src="images/tn-3.png"/></div>
+<div id="imgFour" class="rand"><img class="thumbnail-img" src="images/tn-4.png"/></div>
+<div id="imgFive" class="rand"><img class="thumbnail-img" src="images/tn-5.png"/></div>
+<div id="imgSix" class="rand"><img class="thumbnail-img" src="images/tn-6.png"/></div>
+</div>
+<div id="thumbnails">
+</div>
+
+<!-- MODALS -->
+
+<!-- Erich Wichman -->
+<div id="modalOne" class="modal">
+  <div class="modal-content">
+  
+      <div class="modal-title">
+	    <span class="close"><img src="images/exit-icon.png" class="close"/></span>
+        <h2>Erich Wichman</h2>
+	  </div>
+	  
+	  <div class="modal-work">
+	    <img src="images/ew-3.png" alt="ew-3" class="photo-large"/>
+		<img src="" data-src="images/ew-2.png" alt="ew-2" class="photo-large lazyOne"/>
+		<img src="" data-src="images/ew-1.png" alt="ew-1" class="photo-large lazyOne"/>
+		<img src="" data-src="images/ew-4.png" alt="ew-4" class="photo-large lazyOne"/>
+		<img src="" data-src="images/ew-5.png" alt="ew-5" class="photo-large lazyOne"/>
+		<img src="" data-src="images/ew-6.png" alt="ew-6" class="photo-large lazyOne"/>
+		<img src="" data-src="images/ew-7.png" alt="ew-7" class="photo-large lazyOne"/>
+		
+		<div class="last-img">
+		  <img src="" data-src="images/ew-8.png" alt="ew-8" class="photo-large lazyOne"/>
+		  <div class="description">
+	        <h3>Erich Wichman - Vrije Radicaal (17-03-2018 / 24-06-2018)</h3>
+            <h4>Exhibition design</h4><br>
+		    <p>A retrospective exhibition about the life of Erich Wichman, an idiosyncratic and influential Utrecht born artist working at the beginning of the twentieth century. He was one of the first abstract artists of his time, and -during his brief life- made an important contribution as a painter, printmaker, poet, chemist and activist. Wichman was a striking and provocative character in the cultural- and political scene of the Netherlands. This documentary exhibition unfolds like a three-dimensional book: there is much to see, read and discover. In addition to exploring Wichman’s art, it also sheds light on his activities as a polemist and political activist.<br><br>The design of this exhibition is part of the series of exhibitions of Utrecht based artist that are displayed in de New Utrecht Galleries.<br><br>Curated by: Bart Rutten en Lara Stolwerk, Centraal Museum<br>Research and advice: Frans van Burkom, Joep Haffmans en Marja Bosma<br>Images &copy Centraal Museum Utrecht / Ernst Moritz 2018</p>
+		  </div>
+		</div>
+	  </div>
+	  
+  </div>
+</div>
+
+
+<!-- Anonymous Identities -->
+<div id="modalTwo" class="modal">
+  <div class="modal-content">
+  
+      <div class="modal-title">
+	    <span class="close"><img src="images/exit-icon.png" class="close"/></span>
+        <h2>Anonymous Identities</h2>
+	  </div>
+	  
+	  <div class="modal-work">
+	    <img src="images/ai-shirt.png" alt="ai-shirt" class="photo-large"/>
+	    <img src="" data-src="images/ai-socks.png" alt="ai-socks" class="photo-large lazyTwo"/>
+	    <img src="" data-src="images/ai-necklace.png" alt="ai-hat" class="photo-large lazyTwo"/>
+	    <img src="" data-src="images/ai-hat.png" alt="ai-necklace" class="photo-large lazyTwo"/>
+	    <img src="" data-src="images/ai-case.png" alt="ai-case" class="photo-large lazyTwo"/>
+	    <img src="" data-src="images/ai-underwear.png" alt="ai-underwear" class="photo-large lazyTwo"/>
+	    <img src="" data-src="images/ai-bracelet.png" alt="ai-bracelet" class="photo-large lazyTwo"/>
+	    
+		<div class="last-img">
+		  <img src="" data-src="images/ai-tote.png" alt="ai-tote" class="photo-large lazyTwo"/>
+		  <div class="description">
+		    <h3>Anonymous Identities</h3>
+            <h4>Graduation project #2, product line and identity</h4><br>
+	        <p>Many people use social media to show an interesting and positive image 
+			of themselves. Users of other anonymous social websites however, 
+			show something completely different: an extremely negative view of 
+			humanity and themselves. Both sides are unrealistic, and both show 
+			just one side of the story. When are we most open and honest? When
+			we're personally responsible for our words, or when we’re anonymous? 
+			Can we get closer to a realistic image if these two extremes balance 
+			each other out?</p>
+		  </div>
+		</div>
+	  </div>
+	  
+  </div>
+</div>
+
+<!-- Dear Internet -->
+<div id="modalThree" class="modal">
+  <div class="modal-content">
+  
+      <div class="modal-title">
+	    <span class="close"><img src="images/exit-icon.png" class="close"/></span>
+        <h2>Dear Internet</h2>
+	  </div>
+	  
+	  <div class="modal-work">
+ 
+        <div class="video-container">
+		  <div class="video-wrapper"><iframe src="https://player.vimeo.com/video/322584584" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+		</div>
+          
+	    <img src="" data-src="images/di-expo.jpg" alt="di-expo" class="photo-large lazyThree"/>
+		
+		<div class="last-img">
+		  <img src="" data-src="images/di-text.jpg" alt="di-expo" class="photo-large lazyThree"/>
+		  <div class="description">
+	        <h3>Dear Internet</h3>
+            <h4>Graduation project #1, three short films, 08:10</h4><br>
+			<p>Our relationship with digital information is complex. Awareness 
+			about online privacy is important, but seems to have become a synonym 
+			for fear and paranoia. At the same time, products and services with 
+			an Internet connection are everywhere, and the amount of social media 
+			users keeps rising. I've used myself as an example for others that are 
+			in the same state as I am, one of constant confusion about my personal 
+			information online.</p>
+		  </div>
+	    </div>
+	  </div>
+	  
+  </div>
+</div>
+
+<!-- Koop een Nieuwe -->
+<div id="modalFour" class="modal">
+  <div class="modal-content">
+  
+      <div class="modal-title">
+	    <span class="close"><img src="images/exit-icon.png" class="close"/></span>
+        <h2>Koop Een Nieuwe</h2>
+	  </div>
+	  
+	  <div class="modal-work">
+		<div class="video-container">
+		  <div class="video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/nVlAdW8F0Ck" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+		</div>
+          
+	    <img src="" data-src="images/ken-1.jpg" alt="ken-1" class="photo-large lazyFour"/>
+		<img src="" data-src="images/ken-2.jpg" alt="ken-2" class="photo-large lazyFour"/>
+		<img src="" data-src="images/ken-3.jpg" alt="ken-3" class="photo-large lazyFour"/>
+        <img src="" data-src="images/ken-5.jpg" alt="ken-5" class="photo-large lazyFour"/>  
+		
+		<div class="last-img">
+		  <img src="" data-src="images/ken-4.jpg" alt="ken-4" class="photo-large lazyFour"/>
+	      <div class="description">
+		    <h3>Koop Een Nieuwe <i>(Buy A New One)</i></h3>
+              <h4>Art (with <a href="http://www.nickbeens.com/" target="_blank">Nick Beens</a>) and graphic design (with <a href="http://www.nickbeens.com/" target="_blank">Nick Beens</a> and <a href="http://www.mode-7.com/" target="_blank">Vincent Kierkels</a>)</h4><br>
+              <p>A music video about a perfect world,  where constantly spending money is the norm, and sustainability is for losers. Our world isn’t that much different. We’re bombarded with messages that encourage us to fill our lives with disposable products. If something breaks, we immediately throw it out and replace it. This video isn’t made to criticize the individual, but to comment on the lazy mindset of consumerism.<br><br>
+              Directed by: <a href="http://www.favst.tv/" target="_blank">Marie-Anne Faustinelli</a><br>
+              Coproduction of: <a href="https://www.vpro.nl/dorst.html" target="_blank">VPRO DORST</a> 
+              and <a href="http://www.kuubcreative.nl/landingpage/" target="_blank">Kuub</a><br>
+              In collaboration with: <a href="http://www.ditisdeontmoeting.nl/" target="_blank">De Ontmoeting</a></p>
+		  </div>
+            
+          <div class="description" id="description-extra">
+		    <h3>From the same people:</h3>
+              <h4>Maar Als Iedereen Zo Denkt</h4><br>
+              <p><a href="https://youtu.be/q_SEArft4Ok" target="_blank"><img src="" data-src="images/maizd-thumbnail.jpg" alt="maizd-thumbnail" class="lazyFour"/></a></p>
+		  </div>    
+            
+		</div>
+      </div>
+	  
+  </div>
+</div>
+
+<!-- Stalker Style -->
+<div id="modalFive" class="modal">
+  <div class="modal-content">
+  
+      <div class="modal-title">
+	    <span class="close"><img src="images/exit-icon.png" class="close"/></span>
+        <h2>Stalker Style</h2>
+	  </div>
+	  
+	  <div class="modal-work">
+	    <img src="images/ss-1.png" alt="ss-1" class="photo-large"/>
+		<img src="" data-src="images/ss-2.png" alt="ss-2" class="photo-large lazyFive"/>
+		<img src="" data-src="images/ss-3.png" alt="ss-3" class="photo-large lazyFive"/>
+		<img src="" data-src="images/ss-4.png" alt="ss-4" class="photo-large lazyFive"/>
+		<img src="" data-src="images/ss-5.png" alt="ss-5" class="photo-large lazyFive"/>
+		<img src="" data-src="images/ss-6.png" alt="ss-6" class="photo-large lazyFive"/>
+		<img src="" data-src="images/ss-7.png" alt="ss-7" class="photo-large lazyFive"/>
+		<img src="" data-src="images/ss-8.png" alt="ss-8" class="photo-large lazyFive"/>
+		
+		<div class="last-img">
+		  <img src="" data-src="images/ss-9.png" alt="ss-10" class="photo-large lazyFive"/>
+		  <div class="description">
+	        <h3>Stalker Style</h3>
+            <h4>A4, multiple types of paper</h4><br>
+			<p>What does someone really see when they've hacked your webcam? Does that even happen in real life? This book holds a collection of articles, little experiments, tutorials and screenshots. Together they tell multiple sides of this story about watching and being watched. The side of the webcam-hackers, and the side of the hacked. The side of the carefree internetters, and the side of the paranoid ones.</p>
+		  </div>
+		</div>
+	  </div>
+	  
+  </div>
+</div>
+
+<!-- Contact -->
+<div id="modalSix" class="modal">
+	<div class="grid-container">
+ 
+	  <div class="modal-content-expo">
+  
+        <div class="modal-title">
+          <span class="close"><img src="images/exit-icon.png" class="close"/></span>
+          <h2>expo</h2>
+	    </div>
+		
+		<div class="modal-work-expo">
+            <table>
+                <tr>
+                    <th class="expo-jaar">.2018</th>
+                    <th>Netherlands Film Festival</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>"Buy a New One"</td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Centraal Museum Utrecht</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>"Erich Wichman, Free Radical"</td>
+                </tr>
+                <tr>
+                    <th class="expo-jaar">.2017</th>
+                    <th>Netherlands Film Festival</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>"If Everyone Thinks Like That"</td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Rumors Graduation Show</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>"Dear Internet" and "Anonymous Identities"</td>
+                </tr>
+                <tr>
+                    <th class="expo-jaar">.2016</th>
+                    <th>Circus of Life, Mysteryland Festival</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>Stage paintings</td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Cinedans, EYE Amsterdam</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>"On the Verge"</td>
+                </tr>
+                <tr>
+                    <th class="expo-jaar">.2015</th>
+                    <th>What Design Can Do, Municipal Theatre Amsterdam</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>"Brand Yourself"</td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Indie Game Concert, Paard van Troje The Hague</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>Live visuals</td>
+                </tr>  
+            </table>
+		</div>
+	  </div>
+	       
+	  <div class="modal-content-about">
+  
+        <div class="modal-title">
+		  <h2>about</h2>
+	    </div>
+	  
+		<div class="modal-work-about">
+	      <p>I'm Eva. I'm a graphic designer and I live in Utrecht with my cat Koos.<br><br>
+		  I have a lot of questions and very little answers. But that's ok, I think it's
+		  up to people to draw their own conclusions.<br><br> To start that train of thought
+		  I combine different forms of information, opinions and ideas. Luckily the Internet
+		  and its users provide me with an endless supply of this. Their complex online
+		  cultures and structures fascinate me, and are recurring subjects in my work.<br><br>
+		  It's very important to me to show things the way they are. I try to tell an honest
+		  and multidimensional story, and often experiment with digital media and moving images.
+		  </p>
+		</div>
+	  </div>
+	  
+	  <div class="modal-content-social">
+  
+        <div class="modal-title">
+          <h2>social</h2>
+	    </div>
+	  
+		<div class="modal-work-social">
+		  <a href="mailto:hello@evabosveld.com"><img src="images/social-text-mail.png" class="social-text"/></a>
+		  <a href="https://www.instagram.com/evabosveld" target="_blank"><img src="images/social-text-insta.png" class="social-text"/></a>
+		</div>
+	  </div>
+	</div>
+  
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.4/jquery.lazy.js"></script>
+<script src="scripts/script-modals.js"></script>
+
+</body>
+
+</html>
+
+
